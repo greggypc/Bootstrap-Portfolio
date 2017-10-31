@@ -403,6 +403,16 @@ textarea{
 	clear: both;
 }
 
+@media screen and (max-width: 1200px) {
+	#bio-pic img {
+	width: 50%;
+	height: 50%;
+	margin-right: 30px;
+	float: left;
+}
+
+}
+
 
 /*@media screen and (max-width: 980px) {
  #main-header {
