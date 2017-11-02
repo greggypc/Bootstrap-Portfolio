@@ -34,7 +34,6 @@ ul li {
 	display: inline-block;
 	line-height: 3;
 	margin-top: 20px;
-
 }
 
 
@@ -246,7 +245,7 @@ textarea{
 	margin-top: 20px;
 	margin-bottom: 30px;
 	
-	
+
 	
 }
 
@@ -268,7 +267,7 @@ textarea{
 }*/
 
 .portfolio-image-container .img-left {
-	width: 50%;
+	width: 100%;
 	position: relative;
 }
 
@@ -276,26 +275,23 @@ textarea{
 	position: absolute;
 	left: 0;
 	bottom: 15px;
-	width: 95%;
+	width: 100%;
 	color: #fff;
 	background-color: #4aaaa5;
 	text-align: center;
 	padding: 20px;
-	
-    
+	text-decoration: none;
 }
 
 .portfolio-image-container .img-left a:hover {
 	position: absolute;
 	left: 0;
 	bottom: 15px;
-	width: 95%;
+	width: 100%;
 	color: #fff;
 	background-color: #1a6f6b;
 	text-align: center;
 	padding: 20px;
-	
-    
 }
 
 /*.portfolio-image-container .img-right {
@@ -355,10 +351,66 @@ textarea{
 	float: left;
 	}
 
-	#icon-links img {
+	.img-left img {
+	width: 50%;
+	height: 50%;
+    }
+
+    .portfolio-image-container .img-left a {
+		width: 50%;
+		
+	}
+
+	.portfolio-image-container .img-left a:hover {
+	
+	width: 50%;
+	
+	}
+	
+    #icon-links img {
 	width: 10%;
 	}
 
+}
+
+@media screen and (max-width: 980px) {
+
+	#bio-pic img {
+	width: 100%;
+	height: 100%;
+	}
+
+	#icon-links img {
+	width: 15%;
+	}
+
+	.img-left img {
+	width: 100%;
+	}
+
+    .portfolio-image-container .img-left a {
+	width: 100%;
+	}
+
+	.portfolio-image-container .img-left a:hover {
+	width: 100%;
+	}
+	/*.navbar-nav {
+    margin-bottom: 20px;
+    margin-top: -30px;
+    text-align: center;
+	}
+
+	.nav>li {
+	display: inline-block
+	}
+
+	ul li {
+    padding: 20px;
+    height: 30px;
+    display: inline-block;
+    }*/
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -387,152 +439,28 @@ textarea{
     height: 30px;
     display: inline-block;
     }
+
+    
  
 }
 
-/* @media screen and (max-width: 640px) {
+ @media screen and (max-width: 640px) {
 	
-	.nav>li {
-	display: inline-block;
+	.navbar-nav {
+    margin-bottom: 20px;
+    margin-top: -30px;
+    text-align: center;
 	}
 
-	  
+	.nav>li {
+	display: inline-block
+	}
 
 	ul li {
     padding: 20px;
     height: 30px;
     display: inline-block;
     }
-}*/
-
-
-/*@media screen and (max-width: 980px) {
- #main-header {
-	height: 100px;
-	
-	width: 85%;
-	}
-
-	#main-content {
-	width: 85%;
-	}
-
-	#left-content {
-	width: 60%;
-	margin-right: 5%;
-	}
-
-	#bio-pic {
-	float: none;
-	margin: 0 0 20px 0;
-	}
-
-	#bio-pic img {
-	width: 100%;
-	height: 100%;
-	}
-
-	#content-text {
-	clear: left;
-	}
-
-	#right-connect {
-	width: 35%;
-	}
-
-	#icon-links img {
-	width: 31%;
-	height: 31%;
-	}
-
-	h3 {
-	font-size: 18px;
-	font-weight: bold;
-	}
-	
-	.portfolio-image-container .img-left {
-    width: 100%;
-    position: relative;
-	}
-
-	.img-left img {
-	width: 100%;
-	height: 100%;
-	}
-
-	.portfolio-image-container .img-left a {
-    width: 100%;
-	}
-
-	.portfolio-image-container .img-left a:hover {
-    width: 100%;
-	}
-
-	.portfolio-image-container .img-right {
-    width: 100%;
-    position: relative;
-	}
-
-	.img-right img {
-	width: 100%;
-	height: 100%;
-	}
-
-	.portfolio-image-container .img-right a {
-    width: 100%;
-	}
-
-	.portfolio-image-container .img-right a:hover {
-    width: 100%;
-	}
 }
 
 
-  @media screen and (max-width: 768px) {
-  	#left-content {
-	width: 100%;
-	}
-
- 	#right-connect {
- 	clear: both;
- 	position: relative;
-	width: 100%;
-	}
-
-	#icon-links img {
-	width: 10%;
-	height: 10%;
-	}
-
-	.img-left img {
-	width: 100%;
-	height: 100%;
-	}
-
-	.img-right img {
-	width: 100%;
-	height: 100%;
-	}
-}
-
-  @media screen and (max-width: 640px) {
-	#main-header {
-    width: 100%;
-    margin-bottom: 40px;
-	}
-
-  	#logo {
-  	position: static;
-  	}
-
-  	#menu {
-	position: static;
-	width: 100%;
-	text-align: center;
-	}
-
-	ul li {
-    padding: 20px;
-    height: 30px;
-}
-}*/
