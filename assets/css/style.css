@@ -17,11 +17,30 @@ body {
 }
 
  
-/*@media (max-width: 767px) {
-    .navbar-collapse .nav > .vert {
+@media (max-width: 783px) {
+     .nav > .vert {
         display: none;
      }
-}*/
+
+     ul li {
+	 margin-top: 0px;
+	 }
+}
+
+ @media screen and (max-width: 640px) {
+	
+	.nav>li {
+	display: inline-block;
+	}
+
+	  
+
+	ul li {
+    padding: 20px;
+    height: 30px;
+    display: inline-block;
+    }
+}
 
 
 
@@ -48,7 +67,7 @@ ul li {
 	padding: 0 3px 0 3px;
 	display: inline-block;
 	line-height: 3;
-	margin-top: 30px;
+	margin-top: 20px;
 
 }
 
@@ -417,6 +436,7 @@ textarea{
 /*@media screen and (max-width: 980px) {
  #main-header {
 	height: 100px;
+	
 	width: 85%;
 	}
 
