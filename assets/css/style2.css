@@ -12,6 +12,7 @@ h1 {
 	font-weight: bold;
 	margin-top: 0px;
     margin-bottom: 0px;
+
 }
 
 h3 {
@@ -30,6 +31,8 @@ ul li {
 	line-height: 3;
 	margin-top: 20px;
 }
+
+
 
 a {
 	text-decoration: none;
@@ -128,6 +131,7 @@ a:active { color: #4aaaa5; background-color: 000; }
 #right-connect h3 {
 	color: #4aaaa5;
 	padding: 20px 0 20px 0;
+	
 }
 
 .hr-connect {
@@ -144,6 +148,7 @@ a:active { color: #4aaaa5; background-color: 000; }
 
 #icon-links img {
 	width: 32%;
+	
 }
 
 
@@ -220,26 +225,54 @@ textarea{
 	border: none;
 }
 
-.portfolio-image-container {
+/*.portfolio-row {
+	position: relative;
+    width: 650px;
+    margin: 25px 0 25px 0;
+}*/
+
+
+
+/*.portfolio-image-container {
 	width: 100%;
 }
 
-.img-app {
+.img-left {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	
+
+	
 }
 
-.img-app img {
+.img-left img {
 	width: 100%;
+    
+}*/
+
+/*.img-right {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
 }
 
+.img-right img {
+	width: 95%;
+    
+}*/
 
-.portfolio-image-container .img-app {
+/*.portfolio-image-container .img-left {
 	width: 100%;
 	position: relative;
+}*/
+
+.thumbnail {
+	padding: 0;
+	border: none;
 }
 
-.portfolio-image-container .img-app a {
+.thumbnail img a {
 	position: absolute;
 	left: 0;
 	bottom: 15px;
@@ -251,7 +284,7 @@ textarea{
 	text-decoration: none;
 }
 
-.portfolio-image-container .img-app a:hover {
+.thumbnail img a:hover {
 	position: absolute;
 	left: 0;
 	bottom: 15px;
@@ -262,6 +295,36 @@ textarea{
 	padding: 20px;
 }
 
+/*.portfolio-image-container .img-right {
+	width: 50%;
+	position: relative;
+}*/
+
+/*.portfolio-image-container .img-right a {
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 95%;
+	color: #fff;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 20px;
+    
+}*/
+
+/*.portfolio-image-container .img-right a:hover {
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 95%;
+	color: #fff;
+	background-color: #1a6f6b;
+	text-align: center;
+	padding: 20px;
+	
+}*/
+
+
 .button {
 	width: 100%;
 	height: 50px;
@@ -271,11 +334,12 @@ textarea{
 	bottom: 20px;
 }
 
+
 .clearfix {
 	clear: both;
 }
 
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
 	
 	#left-content {
     margin: 30px 0 0 0;
@@ -288,13 +352,29 @@ textarea{
 	float: left;
 	}
 
+	.thumbnail img {
+	width: 50%;
+	height: 50%;
+    }
+
+    .thumbnail img a {
+		width: 50%;
+		
+	}
+
+	.thumbnail img a:hover {
+	
+	width: 50%;
+	
+	}
+	
     #icon-links img {
 	width: 10%;
 	}
 
-}
+}*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 980px) {
 
 	#bio-pic img {
 	width: 100%;
@@ -305,17 +385,33 @@ textarea{
 	width: 15%;
 	}
 
-	.img-app img {
+	.thumbnail img {
 	width: 100%;
 	}
 
-    .portfolio-image-container .img-app a {
+    .thumbnail img a {
 	width: 100%;
 	}
 
-	.portfolio-image-container .img-app a:hover {
+	.thumbnail img a:hover {
 	width: 100%;
 	}
+	/*.navbar-nav {
+    margin-bottom: 20px;
+    margin-top: -30px;
+    text-align: center;
+	}
+
+	.nav>li {
+	display: inline-block
+	}
+
+	ul li {
+    padding: 20px;
+    height: 30px;
+    display: inline-block;
+    }*/
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -344,14 +440,29 @@ textarea{
     height: 30px;
     display: inline-block;
     }
+
+    
+ 
 }
 
  @media screen and (max-width: 640px) {
 	
-	ul li {
-    padding-right: 5px;
-	padding-left: 5px;
+	.navbar-nav {
+    margin-bottom: 20px;
+    margin-top: -30px;
+    text-align: center;
 	}
+
+	.nav>li {
+	display: inline-block
+	}
+
+	ul li {
+    padding-right: 10px;
+	padding-left: 10px;
+    height: 30px;
+    display: inline-block;
+    }
 }
 
 
